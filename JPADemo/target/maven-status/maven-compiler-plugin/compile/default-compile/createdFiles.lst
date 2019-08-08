@@ -1,5 +1,0 @@
-com/hibernateExc/jpa/model/Messages.class
-com/hibernateExc/jpa/main/MainApp.class
-com/hibernateExc/jpa/dao/MessageDao.class
-com/hibernateExc/jpa/controller/MessageController.class
-com/hibernateExc/jpa/main/JPAUtility.class
