@@ -21,7 +21,7 @@ public class MessageController {
         messageDao.saveMessage(new Messages("2nd message"));
     }
     
-    public void getMessage(Long id){
-        System.out.println(messageDao.getMessage(id).toString());
+    public Messages getMessage(Long id){
+        return messageDao.getMessage(id);
     }
 }

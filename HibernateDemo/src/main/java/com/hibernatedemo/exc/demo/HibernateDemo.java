@@ -16,6 +16,5 @@ public class HibernateDemo {
     public static void main(String[] args) {
         MessageController messageController = new MessageController();
         messageController.saveMessage();
-        messageController.getMessage(1L);
     }
 }

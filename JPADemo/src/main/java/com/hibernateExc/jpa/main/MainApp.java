@@ -16,7 +16,6 @@ public class MainApp {
     public static void main(String[] args) {
        MessageController messagesController = new MessageController();
        messagesController.saveMessage();
-        System.out.println(messagesController.getMessage(1L).toString());
-        JPAUtility.shutdown();
+       JPAUtility.shutdown();
     }
 }
