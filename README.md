@@ -1,4 +1,4 @@
-#Steps to run project using mvn in perticular project folder
+# Steps to run project using mvn in perticular project folder
 
-mvn clean install
-mvn exec:java
+1. mvn clean install
+2. mvn exec:java
